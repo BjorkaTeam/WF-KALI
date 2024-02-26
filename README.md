@@ -1,6 +1,7 @@
 # WF-KALI
 
 **© BjorkaTeam**
+
 pkg update
 
 pkg upgrade
